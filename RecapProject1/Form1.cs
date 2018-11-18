@@ -19,7 +19,15 @@ namespace RecapProject1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            string key = textBox1.Text;
+            if (string.IsNullOrEmpty(key))
+            {
+                ListProducts();
+            }
+            else
+            {
+                ListProductsByProductsName(key);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -49,7 +57,30 @@ namespace RecapProject1
 
         private void cbxCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(cbxCategory.ValueMember);
+            try
+            {
+                ListProductsByCategory(int.Parse(cbxCategory.SelectedValue.ToString()));
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void ListProductsByCategory(int categoryId)
+        {
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                dgvProduct.DataSource = context.Products.Where(x => x.CategoryId == categoryId).ToList();
+            }
+        }
+
+        private void ListProductsByProductsName(string key)
+        {
+            using (NorthwindContext context = new NorthwindContext())
+            {
+                dgvProduct.DataSource = context.Products.Where(x => x.ProductName.ToLower().Contains(key.ToLower())).ToList();
+            }
         }
     }
 }

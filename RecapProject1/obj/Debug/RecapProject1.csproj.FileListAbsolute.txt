@@ -13,3 +13,16 @@ C:\Users\adem.pehlivan\source\repos\RecapProject1\RecapProject1\bin\Debug\Entity
 C:\Users\adem.pehlivan\source\repos\RecapProject1\RecapProject1\bin\Debug\EntityFramework.xml
 C:\Users\adem.pehlivan\source\repos\RecapProject1\RecapProject1\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\adem.pehlivan\source\repos\RecapProject1\RecapProject1\obj\Debug\RecapProject1.csproj.CopyComplete
+D:\repos\RecapProject1\RecapProject1\bin\Debug\RecapProject1.exe.config
+D:\repos\RecapProject1\RecapProject1\obj\Debug\RecapProject1.exe
+D:\repos\RecapProject1\RecapProject1\obj\Debug\RecapProject1.pdb
+D:\repos\RecapProject1\RecapProject1\bin\Debug\RecapProject1.exe
+D:\repos\RecapProject1\RecapProject1\bin\Debug\RecapProject1.pdb
+D:\repos\RecapProject1\RecapProject1\bin\Debug\EntityFramework.dll
+D:\repos\RecapProject1\RecapProject1\bin\Debug\EntityFramework.SqlServer.dll
+D:\repos\RecapProject1\RecapProject1\bin\Debug\EntityFramework.xml
+D:\repos\RecapProject1\RecapProject1\bin\Debug\EntityFramework.SqlServer.xml
+D:\repos\RecapProject1\RecapProject1\obj\Debug\RecapProject1.csprojResolveAssemblyReference.cache
+D:\repos\RecapProject1\RecapProject1\obj\Debug\RecapProject1.Form1.resources
+D:\repos\RecapProject1\RecapProject1\obj\Debug\RecapProject1.Properties.Resources.resources
+D:\repos\RecapProject1\RecapProject1\obj\Debug\RecapProject1.csproj.GenerateResource.Cache
